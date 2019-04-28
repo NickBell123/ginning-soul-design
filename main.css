@@ -9,34 +9,35 @@ body {
 .background-image {
     height: 800px;
     width: 100%;
-    background-image: url(assets/background.JPG);
+    background-image: url(assets/background1.JPG);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+}
 
+.navbar {
+    margin-right: 20px;
+    padding: 0:
+    text-align: center;
     
 }
 
-
-.menubar {
-    position: fixed;
-    width: 100%;
-    text-align: center;
-    ;
 }
 .inline-block {
     display: inline-block;
 }
 
 .dropdown {
-    padding-left: 10px;
+    margin-top: 15px;
+    margin-left: 50px;
+    padding; 25px;
 
 }
 
 button {
     border: none;
-    
-    background-color:;
+    border-radius: 25%;
+    background-color: rgba(0,0,0,0.15); ;
     width: 150px;
     height: 20px;
     color: #fff;    
@@ -55,8 +56,8 @@ button {
     left: 0;
     right: 0;
     width: 150px;
-    box-shadow: 10px 10px 39px 0px rgba(0,0,0,0.75);
-    transform: translateY(-100%);
+    box-shadow: 10px 10px 39px 0px rgba(0,0,0,0.25);
+    transform: translateY(-150%);
     transition: .5s ease-in-out;
 }
 
@@ -76,13 +77,26 @@ button {
 
 .dropdown {
     width: 150px;
-    position: relative;
+   
 }
 
 .dropdown:hover button {
     background-color: #018ec5;
+     
 }
 
 .dropdown:hover .dropdownMenu {
     transform: translateY(0);
+}
+
+.title {
+    color: #fafafa;
+    padding-top: 130px;
+    text-align: center;
+    font-size: 33px;
+}
+
+.title button:hover {
+    background-color: #018ec5;
+    
 }
