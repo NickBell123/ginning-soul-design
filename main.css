@@ -1,102 +1,20 @@
 body {
     margin: 0;
     padding: 0;
-    
 }
 
 
-
 .background-image {
-    height: 800px;
+    height:500px;
     width: 100%;
-    background-image: url(assets/background1.JPG);
+    background-image: url(assets/background.JPG);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
 
-.navbar {
-    margin-right: 20px;
-    padding: 0:
-    text-align: center;
-    
-}
-
-}
-.inline-block {
-    display: inline-block;
-}
-
-.dropdown {
-    margin-top: 15px;
-    margin-left: 50px;
-    padding; 25px;
-
-}
-
-button {
-    border: none;
-    border-radius: 25%;
-    background-color: rgba(0,0,0,0.15); ;
-    width: 150px;
-    height: 20px;
-    color: #fff;    
-    text-transform: uppercase;
-    cursor: pointer;
-}
-
-.dropdownMenu {
-    list-style: none;
-    z-index: -1;
-    text-align: center;
-    margin: 0;
-    padding: 0;
-    position: relative;
-    top: 0;
-    left: 0;
-    right: 0;
-    width: 150px;
-    box-shadow: 10px 10px 39px 0px rgba(0,0,0,0.25);
-    transform: translateY(-150%);
-    transition: .5s ease-in-out;
-}
-
-.dropdownLink {
-    text-decoration: none;
-    display: block;
-    background-color: #f9f9f9;
-    color: #4a4a4f;
-    padding: 10px 5px;
-    transition: background-color .5s ease-in-out, color .5s ease-in-out;
-}
-
-.dropdownLink:hover {
-    color: #fff;
-    background-color: #a0a0a3;
-}
-
-.dropdown {
-    width: 150px;
-   
-}
-
-.dropdown:hover button {
-    background-color: #018ec5;
-     
-}
-
-.dropdown:hover .dropdownMenu {
-    transform: translateY(0);
-}
-
-.title {
-    color: #fafafa;
-    padding-top: 130px;
-    text-align: center;
-    font-size: 33px;
-}
-
-.title button:hover {
-    background-color: #018ec5;
+.card-img{
+    max-height: 250px;
+    max-width: 250px;
     
 }
