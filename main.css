@@ -4,12 +4,68 @@ body {
 }
 
 
+h1 {
+    font-family: "Shadows Into Light" ,cursive;
+    
+    font-size: 8.5rem;
+    color: #fafafa;
+    text-align: center;
+    line-height: normal;
+}
+<---Images--->
+
 .background-image {
     height:500px;
     width: 100%;
     background-image: url(assets/background.JPG);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
+}
+
+.gallary-item { 
+    width: 354px;
+}
+
+.necklace {
+    background-image: url(assets/necklace.JPG);
+    height: 300px;
+    max-width: 100%;
+    background-position: center;
+}
+
+.ring {
+    background-image: url(assets/ring.JPG);
+    height: 300px;
+    max-width: 100%;
+    background-position: center;
+}
+
+.earrings {
+    background-image: url(assets/earrings.JPG);
+    height: 300px;
+    max-width: 100%;
+    background-position: center;
+}
+
+.bangles {
+    background-image: url(assets/bangles.JPG);
+    height: 300px;
+    max-width: 100%;
+    background-position: center;
+}
+
+.butterfly {
+    background-image: url(assets/butterfly.JPG);
+    height: 300px;
+    max-width: 100%;
+    background-position: center;
+}
+
+.brouch {
+    background-image: url(assets/brouch.JPG);
+    height: 300px;
+    max-width: 100%;
     background-position: center;
 }
 
