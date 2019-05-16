@@ -14,6 +14,8 @@ h1 {
 }
 <---Images--->
 
+
+
 .background-image {
     height:500px;
     width: 100%;
@@ -23,51 +25,46 @@ h1 {
     background-position: center;
 }
 
-.gallary-item { 
-    width: 354px;
+.wrapper {
+    height: 30vh;
+    width: 100px;
+}
+
+.image {
+    background-position: center;
+    background-size: cover; 
+    background-repeat: no-repeat;
+    height: 100%;
 }
 
 .necklace {
     background-image: url(assets/necklace.JPG);
-    height: 300px;
-    max-width: 100%;
-    background-position: center;
+   
 }
 
 .ring {
     background-image: url(assets/ring.JPG);
-    height: 300px;
-    max-width: 100%;
-    background-position: center;
+    
 }
 
 .earrings {
     background-image: url(assets/earrings.JPG);
-    height: 300px;
-    max-width: 100%;
-    background-position: center;
+   
 }
 
 .bangles {
     background-image: url(assets/bangles.JPG);
-    height: 300px;
-    max-width: 100%;
-    background-position: center;
+    
 }
 
 .butterfly {
     background-image: url(assets/butterfly.JPG);
-    height: 300px;
-    max-width: 100%;
-    background-position: center;
+   
 }
 
 .brouch {
     background-image: url(assets/brouch.JPG);
-    height: 300px;
-    max-width: 100%;
-    background-position: center;
-}
+   
 
 .card-img {
     max-height: 250px;
