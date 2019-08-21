@@ -151,24 +151,42 @@ h2 {
 }
    
   */
-
+.gallary-container {
+    background-color: #bf70d8;
+}
 
 .wrapper {
-    height: 30vh;
+    height: 45vh;
     width: 100px;
+  
+   
 }
 
 .image {
+    border: solid 2px #007bbf;
     background-position: center;
     background-size: cover; 
     background-repeat: no-repeat;
-    height: 100%;
+    height: 100%;-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    border-radius: 23px
+    
 }
 
 
 
 .necklace {
     background-image: url('images/necklace.JPG');
+    -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
    
 }
 
@@ -194,7 +212,7 @@ h2 {
 
 .brouch {
     background-image: url('images/brouch.JPG');
-   
+    
 }
 
 .card-img {
