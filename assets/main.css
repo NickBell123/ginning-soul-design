@@ -1,79 +1,75 @@
+
+
 body {
     margin: 0;
     padding: 0;
     text-decoration: none;
-    
 }
-    
+
 .nav-item a {
     font-size: 16px;
-    font-family: 'comfortaa', cursive;  
-    color: #bf70d8;  
+    font-family: 'comfortaa', cursive;
+    color: #bf70d8;
 }
 
 .nav-item a:hover {
     font-size: 18px;
-    color: white;    
+    color: white;
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 .home-banner-container {
     height: 75vh;
-
-    
-        background: url('images/home-banner.JPG') no-repeat bottom center fixed; 
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-
-        display: flex;
-        align-items: center;
-        justify-content: center;
-      
+    background: url('images/home-banner.JPG') no-repeat bottom center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .jumbotron {
     background-color: transparent;
 }
- 
- h1 {
-    font-family: 'Lobster', cursive; 
+
+h1 {
+    font-family: 'Lobster', cursive;
     color: #bf70d8;
     text-shadow: 5px 5px 2px #000;
+}
 
- }
+.display-1 {
+   font-size: 10vw;
+}
 
- #view-button {
-     font-family: 'Lobster', cursive;
-     font-size: 45px;
-     border-radius: 23px;
-     text-shadow: 2px 2px 1px #000;
- }
+#view-button {
+    font-family: 'Lobster', cursive;
+    font-size: 5vw;
+    border-radius: 23px;
+    text-shadow: 2px 2px 1px #000;
+}
 
- #view-button a:hover{
-    
-        text-decoration: none;
-        color: #fafafa;
-    
- }
+#view-button a:hover {
+    text-decoration: none;
+    color: #fafafa;
+    cursor: pointer;
+}
 
 .footer-container {
     font-family: 'Comfortaa', cursive;
-   background-color: #bf70d8;
+    background-color: #bf70d8;
+    font-size: 2.5vw;
 }
 
+
+/*@media screen and (max-width: 425px) {
+    .display-1 {
+        font-size: 20vw;
+    }
+    #view-button {
+        font-size: 11vw;  */
+}
 
 
 /**.bg {
@@ -151,6 +147,7 @@ h2 {
 }
    
   */
+
 .gallary-container {
     background-color: #bf70d8;
 }
@@ -158,64 +155,99 @@ h2 {
 .wrapper {
     height: 45vh;
     width: 100px;
-  
-   
+    
+ 
 }
 
 .image {
-    border: solid 2px #007bbf;
+   
     background-position: center;
-    background-size: cover; 
+    background-size: cover;
     background-repeat: no-repeat;
-    height: 100%;-webkit-background-size: cover;
+    height: 100%;
+    -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    border-radius: 23px
-    
+    border: solid 2px #007bbf;
+    border-radius: 23px;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0.1s
 }
 
-
+.image:hover{
+     opacity: 0.9;
+     cursor: pointer;
+}
 
 .necklace {
     background-image: url('images/necklace.JPG');
-    -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-
-        display: flex;
-        align-items: center;
-        justify-content: center;
-   
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
 }
 
 .ring {
     background-image: url('images/ring.JPG');
-    
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
 }
 
 .earrings {
     background-image: url('images/earrings.JPG');
-   
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
 }
 
 .bangles {
     background-image: url('images/bangles.JPG');
-    
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
 }
 
 .butterfly {
     background-image: url('images/butterfly.JPG');
-   
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
 }
 
 .brouch {
     background-image: url('images/brouch.JPG');
-    
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
 }
 
+.gallary-button {
+    font-family: 'Lobster', cursive;
+    font-size: 45px;
+    border-radius: 23px;
+    text-shadow: 2px 2px 1px #000;
+    margin-bottom: 10px
+}
+
+.gallary-button a:hover {
+    text-decoration: none;
+    color: #fafafa;
+    cursor: pointer;
+}
+
+footer{
+
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
 .card-img {
-    max-height: 250px;
-    max-width: 250px;
+    max-height: 220px;
+    max-width: 220px;
+  
+}
+
+
+    
 }
