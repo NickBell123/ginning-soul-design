@@ -155,6 +155,41 @@ h1 {
     justify-content: center;
 }
 
+.lightning-bolt {
+    background-image: url('images/lightning-bolt.jpg');
+    display: flex;
+    align-items: flex-end;
+    justify-content: center; 
+}
+
+.silver-heart {
+    background-image: url('images/silver-heart.jpg');
+    display: flex;
+    align-items: flex-end;
+    justify-content: center; 
+}
+
+.silver-bluebell {
+    background-image: url('images/silver-bluebell.jpg');
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.silver-key {
+    background-image: url('images/silver-key.jpg');
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;  
+}
+
+.white-peardrop {
+    background-image: url('images/white-peardrop.jpg');
+    display: flex;
+    align-items: flex-end;
+    justify-content: center; 
+}
+
 .gallary-button {
     font-family: 'Lobster', cursive;
     font-size: 45px;
