@@ -1,5 +1,3 @@
-
-
 body {
     margin: 0;
     padding: 0;
@@ -40,7 +38,7 @@ h1 {
 }
 
 .display-1 {
-   font-size: 10vw;
+    font-size: 10vw;
 }
 
 #view-button {
@@ -62,192 +60,93 @@ h1 {
     font-size: 2.5vw;
 }
 
-
-/*@media screen and (max-width: 425px) {
+@media screen and (max-width: 425px) {
     .display-1 {
         font-size: 20vw;
     }
     #view-button {
-        font-size: 11vw;  */
-}
-
-
-/**.bg {
-        background-image: url('images/home-banner.JPG');
-        height: 75%;
-        width: 100%;
-        background-repeat: no-repeat;
+        font-size: 11vw;
+    }
+}   
+    .gallary-container {
+        background-color: #bf70d8;
+    }
+    .wrapper {
+        height: 45vh;
+        width: 100px;
+    }
+    .image {
+        background-position: center;
         background-size: cover;
-        margin: 0;
-        padding: 0;
-}
-
-
-
- .nav-link {
-   
-    font-family: 'Comfortaa', cursive;
-    font-weight: 100;
-    font-size: 3vh;
-    text-shadow: 1px 1px 0.5px #000;
-
-}
-
-
-h1 { 
-    font-family: 'Lobster', cursive;
-    font-size: 11vh;
-    font-weight: 700;
-    color: #bf70d8;
-    text-align: center;
-    text-shadow: 5px 5px 2px #000;
-}
-
-
-#view-button {
-    font-size: 6vh;
-    font-family: 'Lobster', cursive;
-    display: block;
-    margin: 30px auto;
-}
-
- /**{
-    font-size: 6vh;
-    text-decoration: none;
-    display: block;  
-    margin: 30px auto;
-    text-decoration: none;
-    font-family: 'Lobster', cursive; 
-}
-
-
-
-h2 {
-    margin-top: 25px;
-    font-family: 'Comfortaa', cursive;
-    font-size-adjust: 3.5rem;
-    font-weight: 600;
-    color: #fafafa;
-    text-align: center;
-    text-shadow: 5px 5px 2px #000;
-}
-
-
-
-
- /**images
-
-#background {
-   /* background-image: url('images/home-banner.JPG');
-    background-position: center;
-    background-size: cover; 
-    background-repeat: no-repeat;
-    width: 100%;
-    height: 90vh; 
-}
-   
-  */
-
-.gallary-container {
-    background-color: #bf70d8;
-}
-
-.wrapper {
-    height: 45vh;
-    width: 100px;
-    
- 
-}
-
-.image {
-   
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 100%;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    border: solid 2px #007bbf;
-    border-radius: 23px;
-    transition-timing-function: ease-in-out;
-    transition-delay: 0.1s
-}
-
-.image:hover{
-     opacity: 0.9;
-     cursor: pointer;
-}
-
-.necklace {
-    background-image: url('images/necklace.JPG');
-    display: flex;
-    align-items: flex-end;
-    justify-content: center;
-}
-
-.ring {
-    background-image: url('images/ring.JPG');
-    display: flex;
-    align-items: flex-end;
-    justify-content: center;
-}
-
-.earrings {
-    background-image: url('images/earrings.JPG');
-    display: flex;
-    align-items: flex-end;
-    justify-content: center;
-}
-
-.bangles {
-    background-image: url('images/bangles.JPG');
-    display: flex;
-    align-items: flex-end;
-    justify-content: center;
-}
-
-.butterfly {
-    background-image: url('images/butterfly.JPG');
-    display: flex;
-    align-items: flex-end;
-    justify-content: center;
-}
-
-.brouch {
-    background-image: url('images/brouch.JPG');
-    display: flex;
-    align-items: flex-end;
-    justify-content: center;
-}
-
-.gallary-button {
-    font-family: 'Lobster', cursive;
-    font-size: 45px;
-    border-radius: 23px;
-    text-shadow: 2px 2px 1px #000;
-    margin-bottom: 10px
-}
-
-.gallary-button a:hover {
-    text-decoration: none;
-    color: #fafafa;
-    cursor: pointer;
-}
-
-footer{
-
-    display: flex;
-    align-content: center;
-    justify-content: center;
-}
-.card-img {
-    max-height: 220px;
-    max-width: 220px;
-  
-}
-
-
-    
-}
+        background-repeat: no-repeat;
+        height: 100%;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        border: solid 2px #007bbf;
+        border-radius: 23px;
+        transition-timing-function: ease-in-out;
+        transition-delay: 0.1s
+    }
+    .image:hover {
+        opacity: 0.9;
+        cursor: pointer;
+    }
+    .necklace {
+        background-image: url('images/necklace.JPG');
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+    }
+    .ring {
+        background-image: url('images/ring.JPG');
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+    }
+    .earrings {
+        background-image: url('images/earrings.JPG');
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+    }
+    .bangles {
+        background-image: url('images/bangles.JPG');
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+    }
+    .butterfly {
+        background-image: url('images/butterfly.JPG');
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+    }
+    .brouch {
+        background-image: url('images/brouch.JPG');
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+    }
+    .gallary-button {
+        font-family: 'Lobster', cursive;
+        font-size: 45px;
+        border-radius: 23px;
+        text-shadow: 2px 2px 1px #000;
+        margin-bottom: 10px
+    }
+    .gallary-button a:hover {
+        text-decoration: none;
+        color: #fafafa;
+        cursor: pointer;
+    }
+    footer {
+        display: flex;
+        align-content: center;
+        justify-content: center;
+    }
+    .card-img {
+        max-height: 220px;
+        max-width: 220px;
+    }
