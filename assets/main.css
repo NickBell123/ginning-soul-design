@@ -190,6 +190,41 @@ h1 {
     justify-content: center; 
 }
 
+.silver-mens {
+    background-image: url('images/silver-mens.jpg');
+    display: flex;
+    align-items: flex-end;
+    justify-content: center; 
+}
+
+.quartz-gold {
+    background-image: url('images/quartz-gold.jpg');
+    display: flex;
+    align-items: flex-end;
+    justify-content: center; 
+}
+
+.gold-perl {
+    background-image: url('images/gold-perl.jpg');
+    display: flex;
+    align-items: flex-end;
+    justify-content: center; 
+}
+
+.multi-band {
+    background-image: url('images/multi-band.jpg');
+    display: flex;
+    align-items: flex-end;
+    justify-content: center; 
+}
+
+.gold-star {
+    background-image: url('images/gold-star.jpg');
+    display: flex;
+    align-items: flex-end;
+    justify-content: center; 
+}
+
 .gallary-button {
     font-family: 'Lobster', cursive;
     font-size: 45px;
