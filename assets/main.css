@@ -212,18 +212,23 @@ h1 {
 }
 
 .multi-band {
-    background-image: url('images/multi-band.jpg');
+    background-image: url('images/skull-ring.jpg');
     display: flex;
     align-items: flex-end;
     justify-content: center; 
 }
 
-.gold-star {
-    background-image: url('images/gold-star.jpg');
+
+/* Coming Soon image */
+
+.coming-soon {
+    background-image: url('images/coming-soon.jpg');
     display: flex;
     align-items: flex-end;
     justify-content: center; 
 }
+
+
 
 .gallary-button {
     font-family: 'Lobster', cursive;
