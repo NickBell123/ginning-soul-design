@@ -59,8 +59,16 @@ h1 {
         max-height: 220px;
         max-width: 220px;
         margin-left: 1vw;
+        
     }
 
+    
+}
+
+@media screen and (max-width: 768px) {
+    .card-img {
+        margin: auto;
+    }
     
 }
 
@@ -83,6 +91,18 @@ h1 {
     font-size: 2.5vw;
 }
 
+.profile-container {
+    font-family: 'Comfortaa', cursive;
+    background-color: #bf70d8;
+    font-size: 2.5vw;
+    
+}
+
+.about-me-container {
+    font-family: 'Comfortaa', cursive;
+    background-color: #bf70d8;
+    font-size: 2.5vw;
+}
 
 .gallary-container {
     background-color: #bf70d8;
@@ -244,11 +264,16 @@ h1 {
     cursor: pointer;
 }
 
+#submit-button a {
+ color: #000;
+}
 
 
 .card-img {
     max-height: 300px;
     max-width: 300px;
+    display: flex;
+    justify-content: center;
 }
 
 .social-icons {
