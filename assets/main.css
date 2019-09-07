@@ -14,6 +14,10 @@ h2 {
     text-align: center;
 }
 
+.mission-title{
+    text-align: center;
+}
+
 a:hover {
     text-decoration: none;
 }
@@ -62,13 +66,17 @@ h1 {
     justify-content: center;
 }
 
+.form-group {
+    width: 100%;
+}
+
 @media screen and (max-width: 425px) {
     body {
-        font-size: 4vw;
+        font-size: 5vw;
     }
 
     h2 {
-        font-size:  4vw;
+        font-size:  7vw;
     }
 
 }
@@ -91,6 +99,10 @@ h1 {
         max-height: 25vw;
         max-width: 25vw;
         margin: auto;
+    }
+
+    .form-group {
+        width: 75%;
     }
 }
 
@@ -131,9 +143,11 @@ h1 {
     width: 100px;
 }
 
-.form-group {
-    width: 100%;
+.media-body {
+ padding: 2vw;
 }
+
+
 
 .image {
     background-position: center;
