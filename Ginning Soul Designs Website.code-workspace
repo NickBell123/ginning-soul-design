@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "assets"
+		}
+	],
+	"settings": {
+		"git.autofetch": true,
+		"liveServer.settings.multiRootWorkspaceName": "Git Directory"
+	}
+}
