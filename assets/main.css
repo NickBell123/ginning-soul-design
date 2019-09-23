@@ -52,7 +52,8 @@ a:hover {
 h1 {
     font-family: 'Lobster', cursive;
     color: #bf70d8;
-    text-shadow: 5px 5px 2px #000;
+    
+    text-shadow: 5px 5px 2px #1f2326;
 }
 
 .display-1 {
@@ -70,6 +71,19 @@ h1 {
     width: 100%;
 }
 
+#view-button {
+    font-family: 'Lobster', cursive;
+    font-size: 4vw;
+    border-radius: 50px;
+    text-shadow: 2px 2px 1px #1f2326;
+}
+
+#view-button a:hover {
+    text-decoration: none;
+    color: #fafafa;
+    cursor: pointer;
+}
+
 @media screen and (max-width: 425px) {
     body {
         font-size: 5vw;
@@ -83,7 +97,7 @@ h1 {
 
 @media screen and (max-width: 768px) {
     .display-1 {
-        font-size: 20vw;
+        font-size: 17vw;
     }
     #view-button {
         font-size: 11vw;
@@ -106,18 +120,7 @@ h1 {
     }
 }
 
-#view-button {
-    font-family: 'Lobster', cursive;
-    font-size: 5vw;
-    border-radius: 23px;
-    text-shadow: 2px 2px 1px #000;
-}
 
-#view-button a:hover {
-    text-decoration: none;
-    color: #fafafa;
-    cursor: pointer;
-}
 
 .footer-container {
     font-family: 'Comfortaa', cursive;
@@ -305,6 +308,7 @@ h1 {
     border: solid #000 1px;
     background-color: #fff;
     border-radius: 25px;
+    margin-top: 5vw;
 }
 
 .text-container {
@@ -332,6 +336,11 @@ h1 {
 }
 
 .fa-linkedin-in {
+    margin-left: 2vw;
+    color: white;
+}
+
+.fa-youtube {
     margin-left: 2vw;
     color: white;
 }
