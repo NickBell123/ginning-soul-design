@@ -35,7 +35,7 @@ a:hover {
 
 .home-banner-container {
     height: 85vh;
-    background: url('images/home-banner.JPG') no-repeat bottom center fixed;
+    background: url('../images/home-banner.JPG') no-repeat bottom center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -100,7 +100,7 @@ h1 {
         font-size: 17vw;
     }
     #view-button {
-        font-size: 11vw;
+        font-size: 8vw;
     }
     .create-account-heading {
         font-size: 7.5vw;
