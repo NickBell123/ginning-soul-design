@@ -1,13 +1,9 @@
 body {
-    font-size: 2vw;
+ 
     margin: 0;
     padding: 0;
     text-decoration: none;
-}
-
-h2 {
-    font-family: 'Lobster',cursive;
-    font-size: 4vw;
+    
 }
 
 .create-account-heading {
@@ -22,19 +18,52 @@ a:hover {
     text-decoration: none;
 }
 
-.nav-item a {
-    font-size: 16px;
-    font-family: 'comfortaa', cursive;
+.navbar-light .navbar-nav .nav-link {
     color: #bf70d8;
+   
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #bf70d8;
+   
+}
+
+.navbar-brand {
+    font-family: 'Lobster', cursive;
+}
+
+.nav-item a {
+    font-size: 14px;
+    font-weight: 900;
+    font-family: 'comfortaa', cursive;
+    padding: 0;
+    text-shadow: 1px 1px 1px #1f2326;
+
+
 }
 
 .nav-item a:hover {
-    font-size: 18px;
-    color: white;
+    font-size: 16px;
+    color: #bf70d8;
+}
+
+
+
+h1 {
+    font-family: 'Lobster', cursive;
+    color: #007bff;
+    
+    text-shadow: 5px 5px 2px #1f2326;
+}
+
+
+h2 {
+    font-family: 'Lobster',cursive;
+    font-size: 4vw;
 }
 
 .home-banner-container {
-    height: 85vh;
+    height: 90vh;
     background: url('../images/home-banner.JPG') no-repeat bottom center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -49,15 +78,8 @@ a:hover {
     background-color: transparent;
 }
 
-h1 {
-    font-family: 'Lobster', cursive;
-    color: #bf70d8;
-    
-    text-shadow: 5px 5px 2px #1f2326;
-}
-
 .display-1 {
-    font-size: 10vw;
+    font-size: 12vw;
 }
 
 .card-img {
@@ -71,11 +93,16 @@ h1 {
     width: 100%;
 }
 
-#view-button {
+.btn-lg {
+    border-radius: 5vw;
+}
+
+#view-button a {
+    color:#007bff;
     font-family: 'Lobster', cursive;
     font-size: 4vw;
-    border-radius: 50px;
-    text-shadow: 2px 2px 1px #1f2326;
+ 
+    text-shadow: 2.5px 2.5px 2px #1f2326;
 }
 
 #view-button a:hover {
@@ -85,22 +112,16 @@ h1 {
 }
 
 @media screen and (max-width: 425px) {
-    body {
-        font-size: 5vw;
-    }
-
-    h2 {
-        font-size:  7vw;
-    }
-
-}
-
-@media screen and (max-width: 768px) {
     .display-1 {
-        font-size: 17vw;
+        font-size: 20vw;
     }
-    #view-button {
-        font-size: 8vw;
+
+    .btn-lg {
+        border-radius: 12vw;
+    }
+    
+    #view-button a {
+        font-size: 10vw;
     }
     .create-account-heading {
         font-size: 7.5vw;
@@ -130,6 +151,7 @@ h1 {
 .profile-container {
     font-family: 'Comfortaa', cursive;
     background-color: #bf70d8;
+
 }
 
 .about-me-container {
@@ -139,6 +161,7 @@ h1 {
 
 .gallary-container {
     background-color: #bf70d8;
+    padding-top: 6vw;
 }
 
 .wrapper {
@@ -173,70 +196,70 @@ h1 {
 }
 
 .necklace {
-    background-image: url('images/necklace.JPG');
+    background-image: url('../images/necklace.JPG');
     display: flex;
     align-items: flex-end;
     justify-content: center;
 }
 
 .ring {
-    background-image: url('images/ring.JPG');
+    background-image: url('../images/ring.JPG');
     display: flex;
     align-items: flex-end;
     justify-content: center;
 }
 
 .earrings {
-    background-image: url('images/earrings.JPG');
+    background-image: url('../images/earrings.JPG');
     display: flex;
     align-items: flex-end;
     justify-content: center;
 }
 
 .bangles {
-    background-image: url('images/bangles.JPG');
+    background-image: url('../images/bangles.JPG');
     display: flex;
     align-items: flex-end;
     justify-content: center;
 }
 
 .butterfly {
-    background-image: url('images/butterfly.JPG');
+    background-image: url('../images/butterfly.JPG');
     display: flex;
     align-items: flex-end;
     justify-content: center;
 }
 
 .brouch {
-    background-image: url('images/brouch.JPG');
+    background-image: url('../images/brouch.JPG');
     display: flex;
     align-items: flex-end;
     justify-content: center;
 }
 
 .lightning-bolt {
-    background-image: url('images/lightning-bolt.jpg');
+    background-image: url('../images/lightning-bolt.jpg');
     display: flex;
     align-items: flex-end;
     justify-content: center;
 }
 
 .silver-heart {
-    background-image: url('images/silver-heart.jpg');
+    background-image: url('../images/silver-heart.jpg');
     display: flex;
     align-items: flex-end;
     justify-content: center;
 }
 
 .silver-bluebell {
-    background-image: url('images/silver-bluebell.jpg');
+    background-image: url('../images/silver-bluebell.jpg');
     display: flex;
     align-items: flex-end;
     justify-content: center;
 }
 
 .silver-key {
-    background-image: url('images/silver-key.jpg');
+    background-image: url('../images/silver-key.jpg');
     display: flex;
     align-items: flex-end;
     justify-content: center;
@@ -250,7 +273,7 @@ h1 {
 }
 
 .silver-mens {
-    background-image: url('images/silver-mens.jpg');
+    background-image: url('../ images/silver-mens.jpg');
     display: flex;
     align-items: flex-end;
     justify-content: center;
