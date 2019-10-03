@@ -28,13 +28,17 @@ a:hover {
    
 }
 
-.navbar-brand {
+.nav-item a#logo {
     font-family: 'Lobster', cursive;
-}
-
+    font-size: 16px;
+    border: solid 2px;
+    border-radius: 50%;
+    margin-right: 5px;
+} 
+    
 .nav-item a {
-    font-size: 14px;
-    font-weight: 900;
+    font-size: 18px;
+    font-weight: 600;
     font-family: 'comfortaa', cursive;
     padding: 0;
     text-shadow: 1px 1px 1px #1f2326;
@@ -42,8 +46,15 @@ a:hover {
 
 }
 
+.nav-item a#logo:hover {
+    opacity: 0.5;
+    font-size: 20px;
+    color: #bf70d8;
+
+}
+
 .nav-item a:hover {
-    font-size: 16px;
+    font-size: 20px;
     color: #bf70d8;
 }
 
@@ -82,6 +93,9 @@ h2 {
     font-size: 12vw;
 }
 
+.card-text{
+    font-size: 2.5vw;
+}
 .card-img {
     max-height: 40vw;
     max-width: 40vw;
@@ -161,7 +175,7 @@ h2 {
 
 .gallary-container {
     background-color: #bf70d8;
-    padding-top: 6vw;
+    padding-top: 35px;
 }
 
 .wrapper {
@@ -244,6 +258,13 @@ h2 {
     justify-content: center;
 }
 
+.silver-earrings {
+    background-image: url('../images/silver-earrings.JPG');
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
 .silver-heart {
     background-image: url('../images/silver-heart.jpg');
     display: flex;
@@ -272,15 +293,15 @@ h2 {
     justify-content: center;
 }
 
-.silver-mens {
-    background-image: url('../ images/silver-mens.jpg');
+.brass-neck {
+    background-image: url('../images/brass-neck.JPG');
     display: flex;
     align-items: flex-end;
     justify-content: center;
 }
 
-.quartz-gold {
-    background-image: url('images/quartz-gold.jpg');
+.teardropset {
+    background-image: url('../images/teardropset.jpg');
     display: flex;
     align-items: flex-end;
     justify-content: center;
