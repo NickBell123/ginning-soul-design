@@ -63,22 +63,7 @@ a:hover {
 .nav-item a:hover {
     font-size: 20px;
     color: #bf70d8;
-}
-
-.modal-header {
-    font-family: 'Lobster', cursive;
-    
-}
-
-.modal-body {
-    display: flex;
-    justify-content: center;
-}
-
-.modal-body img {
-    max-width: 52vw;
-}
-
+}  
 
 h1 {
     font-family: 'Lobster', cursive;
@@ -92,6 +77,11 @@ h2 {
     font-family: 'Lobster',cursive;
     font-size: 4vw;
 }
+
+h3 {
+    font-family: 'Lobster',cursive;
+}
+
 
 .home-banner-container {
     height: 90vh;
@@ -113,6 +103,27 @@ h2 {
     font-size: 12vw;
 }
 
+.modal-body {
+    height: 100vw;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#necklace.modal-body {
+    background: url('../images/necklace.JPG') no-repeat center center;
+}
+
+#ring-image.modal-body {
+    background: url('../images/ring.JPG') no-repeat center center;
+}
+
+
+
 .card-text{
     font-size: 2.5vw;
 }
@@ -129,6 +140,20 @@ h2 {
 
 .btn-lg {
     border-radius: 5vw;
+}
+
+#modal-button.btn-outline-primary {
+    border-radius: 23px;
+    font-weight: 400;   
+}
+
+#modal-button.btn-outline-secondary {
+    color: #007bff;
+    border-radius: 23px;
+}
+
+#modal-butoon:hover {
+    opacity: 0.75;
 }
 
 #view-button a {
@@ -160,14 +185,11 @@ h2 {
     .create-account-heading {
         font-size: 7.5vw;
     }
-
-    .modal-body img {
-        max-width: 85vw;
-    }
-        
+       
 }
 
 @media screen and (min-width: 768px) {
+
     .card-img {
         max-height: 25vw;
         max-width: 25vw;
@@ -177,9 +199,12 @@ h2 {
     .form-group {
         width: 75%;
     }
+
+    .modal-body {
+        height: 40vw;
+    }
+
 }
-
-
 
 .footer-container {
     font-family: 'Comfortaa', cursive;
@@ -211,8 +236,6 @@ h2 {
  padding: 2vw;
 }
 
-
-
 .image {
     background-position: center;
     background-size: cover;
@@ -228,10 +251,7 @@ h2 {
     transition-delay: 0.1s
 }
 
-.image:hover {
-    opacity: 0.9;
-    cursor: pointer;
-}
+
 
 .necklace {
     background-image: url('../images/necklace.JPG');
@@ -338,34 +358,20 @@ h2 {
     justify-content: center;
 }
 
-.multi-band {
-    background-image: url('images/skull-ring.jpg');
-    display: flex;
-    align-items: flex-end;
-    justify-content: center;
-}
-
-/* Coming Soon image */
-
-.coming-soon {
-    background-image: url('images/coming-soon.jpg');
-    display: flex;
-    align-items: flex-end;
-    justify-content: center;
-}
 
 .gallary-button {
     font-family: 'Lobster', cursive;
-    font-size: 45px;
+    font-size: 25px;
     border-radius: 23px;
     text-shadow: 2px 2px 1px #000;
     margin-bottom: 10px
 }
 
-.gallary-button a:hover {
+.gallary-button:hover {
     text-decoration: none;
     color: #fafafa;
     cursor: pointer;
+    opacity: 0.75;
 }
 
 #submit-button a {

@@ -16,7 +16,7 @@
 <body>
 
     <nav class="navbar navbar-expand-sm navbar-light bg-light fixed-top">
-
+        <a class="navbar-brand" id="logo" href="index.html">GS</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
             aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -24,9 +24,6 @@
 
         <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
             <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-                <li class="nav-item">
-                    <a class="nav-link" id="logo" href="index.html">GS</a>
-                </li>
                 <li class="nav-item">
                     <a class="nav-link" href="about-me.html">About Me</a>
                 </li>
@@ -45,22 +42,76 @@
             <div class="row">
                 <div class="wrapper col-12 col-md-6 col-lg-4 mt-3 mb-2">
                     <div class="necklace image">
-                        <button type="button" id="necklace-image" class="btn btn-outline-primary gallary-button"><a
-                                href="necklace-page.html">Necklaces</a>
-                        </button>
+
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-outline-primary gallary-button" data-toggle="modal"
+                            data-target="#gallaryModal">Details</button>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="gallaryModal" tabindex="-1" role="dialog"
+                            aria-labelledby="gallaryModalLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-lg" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h3 class="modal-title" id="gallaryModalLabel">Modal title</h3>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body" id="necklace"></div>
+                                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea reprehenderit
+                                        aspernatur, harum sapiente fugiat omnis labore, quod assumenda maxime
+                                        consequatur iste exercitationem dolores dolore tempora, facere impedit repellat
+                                        numquam quo!</p>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-outline-secondary" id="modal-button"
+                                            data-dismiss="modal">Back</button>
+                                        <button type="button" class="btn btn-outline-primary"
+                                            id="modal-button">Purchase</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
                     </div>
                 </div>
                 <div class="wrapper col-12 col-md-6 col-lg-4 mt-3 mb-2">
                     <div class="ring image">
-                        <button type="button" id="ring-image" class="btn btn-outline-primary gallary-button"><a
-                                href="rings.html">Rings</a>
-                        </button>
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-outline-primary gallary-button" data-toggle="modal"
+                            data-target="#gallaryModal01">Details</button>
+                        <!-- Modal -->
+                        <div class="modal fade" id="gallaryModal01" tabindex="-1" role="dialog"
+                            aria-labelledby="gallaryModalLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-lg" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h3 class="modal-title" id="gallaryModalLabel">Modal title</h3>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body" id="ring-image"></div>
+                                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea reprehenderit
+                                        aspernatur, harum sapiente fugiat omnis labore, quod assumenda maxime
+                                        consequatur iste exercitationem dolores dolore tempora, facere impedit repellat
+                                        numquam quo!</p>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-outline-secondary" id="modal-button"
+                                            data-dismiss="modal">Back</button>
+                                        <button type="button" class="btn btn-outline-primary"
+                                            id="modal-button">Purchase</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
+                    
                 </div>
                 <div class="wrapper col-12 col-md-6 col-lg-4 mt-3 mb-2">
                     <div class="bangles image">
                         <button type="button" id="bangles-image" class="btn btn-outline-primary gallary-button"><a
-                                href="bangles.html">Bangles</a>
+                                href="bangles.html">Details</a>
                         </button>
                     </div>
                 </div>
@@ -68,63 +119,63 @@
                 <div class="wrapper col-12 col-md-6 col-lg-4 mt-3 mb-2">
                     <div class="earrings image">
                         <button type="button" id="earrings-image" class="btn btn-outline-primary gallary-button"><a
-                                href="#">Earrings</a>
+                                href="#">Details</a>
                         </button>
                     </div>
                 </div>
                 <div class="wrapper col-12 col-md-6 col-lg-4 mt-3 mb-2">
                     <div class="brouch image">
                         <button type="button" id="brouch-image" class="btn btn-outline-primary gallary-button"><a
-                                href="#">Brouchs</a>
+                                href="#">Details</a>
                         </button>
                     </div>
                 </div>
                 <div class="wrapper col-12 col-md-6 col-lg-4 mt-3 mb-2">
                     <div class="butterfly image">
                         <button type="button" id="butterfly-image" class="btn btn-outline-primary gallary-button"><a
-                                href="#">Comissions</a>
+                                href="#">Details</a>
                         </button>
                     </div>
                 </div>
                 <div class="wrapper col-12 col-md-6 col-lg-4 mt-3 mb-2">
                     <div class="lightning-bolt image">
                         <button type="button" id="lightning-bolt" class="btn btn-outline-primary gallary-button"><a
-                                href="#">#</a>
+                                href="#">Details</a>
                         </button>
                     </div>
                 </div>
                 <div class="wrapper col-12 col-md-6 col-lg-4 mt-3 mb-2">
                     <div class="silver-earrings image">
                         <button type="button" id="silver-earrings" class="btn btn-outline-primary gallary-button"><a
-                                href="#">#</a>
+                                href="#">Details</a>
                         </button>
                     </div>
                 </div>
                 <div class="wrapper col-12 col-md-6 col-lg-4 mt-3 mb-2">
                     <div class="silver-bluebell image">
-                        <button type="button" id="silver-bluebell-image" class="btn btn-outline-primary gallary-button"><a
-                                href="#">Comissions</a>
+                        <button type="button" id="silver-bluebell-image"
+                            class="btn btn-outline-primary gallary-button"><a href="#">Details</a>
                         </button>
                     </div>
                 </div>
                 <div class="wrapper col-12 col-md-6 col-lg-4 mt-3 mb-2">
                     <div class="silver-heart image">
                         <button type="button" id="silver-heart-image" class="btn btn-outline-primary gallary-button"><a
-                                href="#">Comissions</a>
+                                href="#">Details</a>
                         </button>
                     </div>
                 </div>
                 <div class="wrapper col-12 col-md-6 col-lg-4 mt-3 mb-2">
                     <div class="brass-neck image">
                         <button type="button" id="brass-neck-image" class="btn btn-outline-primary gallary-button"><a
-                                href="#">Comissions</a>
+                                href="#">Details</a>
                         </button>
                     </div>
                 </div>
                 <div class="wrapper col-12 col-md-6 col-lg-4 mt-3 mb-2">
                     <div class="teardropset image">
                         <button type="button" id="teardropset-image" class="btn btn-outline-primary gallary-button"><a
-                                href="#">Comissions</a>
+                                href="#">Details</a>
                         </button>
                     </div>
                 </div>
