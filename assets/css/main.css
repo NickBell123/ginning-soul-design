@@ -28,13 +28,20 @@ a:hover {
    
 }
 
-.nav-item a#logo {
+.navbar-light .navbar-brand {
     font-family: 'Lobster', cursive;
-    font-size: 16px;
+    font-size: 15px;
     border: solid 2px;
     border-radius: 50%;
-    margin-right: 5px;
+    color: #bf70d8;
+    text-shadow: 1px 1px 1px #1f2326;
+    padding: 5px;
 } 
+
+.navbar-light .navbar-brand:hover {
+    color: #bf70d8;
+    font-size: 18px; 
+}
     
 .nav-item a {
     font-size: 18px;
@@ -46,7 +53,7 @@ a:hover {
 
 }
 
-.nav-item a#logo:hover {
+.navbar-brand a#logo:hover {
     opacity: 0.5;
     font-size: 20px;
     color: #bf70d8;
@@ -58,6 +65,19 @@ a:hover {
     color: #bf70d8;
 }
 
+.modal-header {
+    font-family: 'Lobster', cursive;
+    
+}
+
+.modal-body {
+    display: flex;
+    justify-content: center;
+}
+
+.modal-body img {
+    max-width: 52vw;
+}
 
 
 h1 {
@@ -75,7 +95,7 @@ h2 {
 
 .home-banner-container {
     height: 90vh;
-    background: url('../images/home-banner.JPG') no-repeat bottom center fixed;
+    background: url('../images/banner-img.JPG') no-repeat bottom center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -139,6 +159,10 @@ h2 {
     }
     .create-account-heading {
         font-size: 7.5vw;
+    }
+
+    .modal-body img {
+        max-width: 85vw;
     }
         
 }
