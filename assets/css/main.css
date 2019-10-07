@@ -103,27 +103,6 @@ h3 {
     font-size: 12vw;
 }
 
-.modal-body {
-    height: 100vw;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-#necklace.modal-body {
-    background: url('../images/necklace.JPG') no-repeat center center;
-}
-
-#ring-image.modal-body {
-    background: url('../images/ring.JPG') no-repeat center center;
-}
-
-
-
 .card-text{
     font-size: 2.5vw;
 }
@@ -142,19 +121,7 @@ h3 {
     border-radius: 5vw;
 }
 
-#modal-button.btn-outline-primary {
-    border-radius: 23px;
-    font-weight: 400;   
-}
 
-#modal-button.btn-outline-secondary {
-    color: #007bff;
-    border-radius: 23px;
-}
-
-#modal-butoon:hover {
-    opacity: 0.75;
-}
 
 #view-button a {
     color:#007bff;
@@ -200,10 +167,7 @@ h3 {
         width: 75%;
     }
 
-    .modal-body {
-        height: 40vw;
-    }
-
+    
 }
 
 .footer-container {
@@ -323,19 +287,6 @@ h3 {
     justify-content: center;
 }
 
-.silver-key {
-    background-image: url('../images/silver-key.jpg');
-    display: flex;
-    align-items: flex-end;
-    justify-content: center;
-}
-
-.white-peardrop {
-    background-image: url('images/white-peardrop.jpg');
-    display: flex;
-    align-items: flex-end;
-    justify-content: center;
-}
 
 .brass-neck {
     background-image: url('../images/brass-neck.JPG');
@@ -351,11 +302,125 @@ h3 {
     justify-content: center;
 }
 
-.gold-perl {
-    background-image: url('images/gold-perl.jpg');
+/**Modal Styling**/
+
+
+.modal-body {
+    height: 75vw;
     display: flex;
-    align-items: flex-end;
+    align-items: center;
     justify-content: center;
+    padding: 0%;
+}
+
+#necklace.modal-body {
+    background: url('../images/necklace.JPG') no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#ring-image.modal-body {
+    background: url('../images/ring.JPG') no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#bangle-image.modal-body {
+    background: url('../images/bangles.JPG') no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#earrings-image.modal-body {
+    background: url('../images/earrings.JPG') no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#brouch-image.modal-body {
+    background: url('../images/brouch.JPG') no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#butterfly-image.modal-body {
+    background: url('../images/butterfly.JPG') no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#lightning-bolt-image.modal-body {
+    background: url('../images/lightning-bolt.jpg') no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#silver-earrings-image.modal-body {
+    background: url('../images/silver-earrings.JPG') no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#silver-bluebell-image.modal-body {
+    background: url('../images/silver-bluebell.jpg') no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#silver-heart-image.modal-body {
+    background: url('../images/silver-heart.jpg') no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#brass-neck-image.modal-body {
+    background: url('../images/brass-neck.JPG') no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#teardropset-image.modal-body {
+    background: url('../images/teardropset.jpg') no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#modal-button.btn-outline-primary {
+    border-radius: 23px;
+    font-weight: 400;   
+}
+
+#modal-button.btn-outline-secondary {
+    color: #007bff;
+    border-radius: 23px;
+}
+
+#modal-butoon:hover {
+    opacity: 0.75;
 }
 
 
