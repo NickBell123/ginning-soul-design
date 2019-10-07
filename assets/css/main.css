@@ -454,6 +454,10 @@ h3 {
     padding: 10px;
 }
 
+.form-section {
+   padding-top: 55px; 
+}
+
 
 .social-icons {
     font-size: 4vw;

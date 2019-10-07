@@ -8,64 +8,88 @@
     <link href="https://fonts.googleapis.com/css?family=Comfortaa|Lobster&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <script src="https://kit.fontawesome.com/0f64bf6100.js"></script>
-    <link rel="stylesheet" href="main.css" type="text/css" />
+
+    <link rel="stylesheet" href="assets/css/main.css" type="text/css" />
 
     <title>Grinning Soul Designs By Lisa Bell</title>
 </head>
 
 <body>
     <!--Navbar-->
+    <nav class="navbar navbar-expand-sm navbar-light bg-light fixed-top">
+        <a class="navbar-brand" id="logo" href="index.html">GS</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
+            aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
 
-    
-
-    <form class="container-fluid profile-container">
-        <div class="row">
-            <div class="col">
-                <h2 class="create-account-heading">Create a FREE account!</h2>
-            </div>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link" href="gallary.html">Gallary</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about-me.html">About Me</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact-page.html">Contact</a>
+                </li>
+            </ul>
         </div>
-        <div class="row">
-            <div class="col-md-6">
-                <div class="form-group">
-                    <label for="firstName">First name</label>
-                    <input type="text" class="form-control" id="firstName" placeholder="First name">
+    </nav>
+    <!--/Navbar-->
+
+    <section class="form-section">
+        <form class="container-fluid profile-container">
+            <div class="row">
+                <div class="col">
+                    <h2 class="create-account-heading">Create a FREE account!</h2>
                 </div>
             </div>
-            <div class="col-md-6">
-                <div class="form-group">
-                    <label for="lastName">Last name</label>
-                    <input type="text" class="form-control" id="lastName" placeholder="Last name">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label for="firstName">First name</label>
+                        <input type="text" class="form-control" id="firstName" placeholder="First name">
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label for="lastName">Last name</label>
+                        <input type="text" class="form-control" id="lastName" placeholder="Last name">
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="form-group">
-            <label for="exampleInputEmail1">Email address</label>
-            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
-                placeholder="Enter email">
-            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-        </div>
-        <div class="form-group">
-            <label for="exampleInputPassword1">Password</label>
-            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-        </div>
+            <div class="form-group">
+                <label for="exampleInputEmail1">Email address</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                    placeholder="Enter email">
+                <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
+                    else.</small>
+            </div>
+            <div class="form-group">
+                <label for="exampleInputPassword1">Password</label>
+                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+            </div>
 
-        <div class="form-group">
-            <label for="exampleInputPassword1">Re-enter Password</label>
-            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Confirm Password">
-        </div>
-        <div class="form-group form-check">
-            <input type="checkbox" class="form-check-input" id="exampleCheck1">
-            <label class="form-check-label" for="exampleCheck1">Create my account!</label>
-        </div>
-        <button type="submit" class="btn btn-primary">Submit</button>
-    </form>
+            <div class="form-group">
+                <label for="exampleInputPassword1">Re-enter Password</label>
+                <input type="password" class="form-control" id="exampleInputPassword2" placeholder="Confirm Password">
+            </div>
+            <div class="form-group form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">Create my account!</label>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </section>
     <hr>
     <!--Footer-profile-card-->
     <footer class="container-fluid footer-container">
         <div class="media">
             <div class="col-sm-4 d-none d-sm-block mt-3">
-                <img src="images/profile-image.jpg" class="card-img rounded-circle border border-primary" alt="...">
+                <img src="assets/images/profile-image.jpg" class="card-img rounded-circle border border-primary"
+                    alt="...">
             </div>
             <div class="col-sm-8 mt-3 mr-auto">
                 <div class="media-body">
@@ -95,5 +119,6 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/0f64bf6100.js"></script>
 
 </body>
