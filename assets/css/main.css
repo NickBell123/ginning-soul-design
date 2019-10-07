@@ -117,21 +117,17 @@ h3 {
     width: 100%;
 }
 
-.btn-lg {
-    border-radius: 5vw;
-}
 
 
-
-#view-button a {
+a#view-button {
     color:#007bff;
     font-family: 'Lobster', cursive;
     font-size: 4vw;
- 
+    border-radius: 23px;
     text-shadow: 2.5px 2.5px 2px #1f2326;
 }
 
-#view-button a:hover {
+a#view-button:hover {
     text-decoration: none;
     color: #fafafa;
     cursor: pointer;
@@ -141,12 +137,8 @@ h3 {
     .display-1 {
         font-size: 20vw;
     }
-
-    .btn-lg {
-        border-radius: 12vw;
-    }
     
-    #view-button a {
+    a#view-button.btn.btn-lg {
         font-size: 10vw;
     }
     .create-account-heading {
