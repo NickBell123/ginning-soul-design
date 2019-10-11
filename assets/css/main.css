@@ -135,6 +135,12 @@ a#view-button:hover {
     cursor: pointer;
 }
 
+.social-icons {
+    font-size: 4vw;
+}
+
+/**Media Quieries**/
+
 @media screen and (max-width: 425px) {
     .display-1 {
         font-size: 20vw;
@@ -145,6 +151,23 @@ a#view-button:hover {
     }
     .create-account-heading {
         font-size: 7.5vw;
+    }
+
+    .card-img {
+        max-width: 50vw;
+        max-height: 50vw;
+    }
+
+    h2 {
+        font-size: 8vw;
+    }
+
+    .card-text{
+        font-size: 4.5vw;
+    }
+
+    .social-icons {
+        font-size: 10vw;
     }
        
 }
@@ -448,10 +471,6 @@ a#view-button:hover {
    padding-top: 55px; 
 }
 
-
-.social-icons {
-    font-size: 4vw;
-}
 
 .fa-twitter {
     margin-left: 2vw;
