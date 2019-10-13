@@ -12,11 +12,15 @@ The website has be designed with the end user in mind. Simple intuitive fuctiona
 
 * As a visitor, the objective of the website to provide large visual content with an intutive design. Simple page layout with clear descriptive buttons and forms to encourage use. 
  
+<<<<<<< HEAD
  ### Wireframe Repo Link
 
 Please click below to view the Wireframe Repo
 
 ![Wireframes](https://github.com/NickBell123/ginning-soul-design/blob/master/assets/images/wireframes)
+=======
+![](assets/images/wireframe01.jpg)
+>>>>>>> 6726e3e0a8dfdba4ed9612707be8fb461823fd9d
 
 ### Tools and Techs
 With futher development the desiner will be able access data to what items are view most/least possible identifing tends in popular items.
