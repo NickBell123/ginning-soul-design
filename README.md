@@ -1,9 +1,15 @@
 # Grinning Soul Designs
 
-This site is intended to give the designer an online platform to show case their work and potentially generate sales. Simple and bold, with large imagery of work for emphasis and pleasent, fuctional UX.
+This site is intended to give the designer a dedicated online platform to showcase their work and potentially generate sales. The desgin of the website's uniquie styling and typography is intended to be both pleasant and memroable. Responsive across screen sizes and browsers, the site offers large imagery of work for easy and enjoyable, fuctional UX.
 
+The website has be designed with the end user in mind. Simple intuitive fuctionalaity with the aim of the user being able to get there desired outcome with minimal effort. There is a simple navagiton system and links to external pages.
 
-As the designer, the objective is to showcase works created and generate interest both publiuc and commercial (focusing on public mainly to begin). The designer will hope to increase social media likes, subs, follows and so on. With futher development the desiner will be able access data to what items are view most/least possible identifing tends in popular items.
+##UX
 
-As a visitor, the objective form the website to provide large visual content with an intutive design. Simple page layout with clear descriptive buttons and forms to encourage use. Futher development 
-## Tools and Techs 
+*As the designer, the objective is to showcase works created and generate interest both public and commercial (focusing on public mainly to begin). The designer will hope to increase social media likes, subs, follows and so on. 
+
+*As a visitor, the objective of the website to provide large visual content with an intutive design. Simple page layout with clear descriptive buttons and forms to encourage use. Futher development 
+
+### Tools and Techs 
+
+With futher development the desiner will be able access data to what items are view most/least possible identifing tends in popular items.
