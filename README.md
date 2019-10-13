@@ -8,9 +8,11 @@ The website has be designed with the end user in mind. Simple intuitive fuctiona
 
 * As the designer, the objective is to showcase works created and generate interest both public and commercial (focusing on public mainly to begin). The designer will hope to increase social media likes, subs, follows and so on. 
 
+<hr>
 
-* As a visitor, the objective of the website to provide large visual content with an intutive design. Simple page layout with clear descriptive buttons and forms to encourage use. Futher development 
+* As a visitor, the objective of the website to provide large visual content with an intutive design. Simple page layout with clear descriptive buttons and forms to encourage use. 
+ 
+![Wire frame](assets/images/wireframe01.jpg)
 
-### Tools and Techs 
-
+### Tools and Techs
 With futher development the desiner will be able access data to what items are view most/least possible identifing tends in popular items.
