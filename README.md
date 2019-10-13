@@ -12,7 +12,7 @@ The website has be designed with the end user in mind. Simple intuitive fuctiona
 
 * As a visitor, the objective of the website to provide large visual content with an intutive design. Simple page layout with clear descriptive buttons and forms to encourage use. 
  
-![Wire frame](assets/images/wireframe01.jpg)
+![Image](../assets/images/wireframe01.jpg)
 
 ### Tools and Techs
 With futher development the desiner will be able access data to what items are view most/least possible identifing tends in popular items.
