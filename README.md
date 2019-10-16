@@ -45,45 +45,32 @@ I made use of [Bootstrap's](https://getbootstrap.com/) grid system for responsiv
 
 [Google Fonts](https://fonts.google.com) Specifically Lobster and Comfortaa font families where used in the typography of the site.
 
-[Font Awesome](https://fontawesome.com/) Provided me with social icon images.
+[Font Awesome](https://fontawesome.com/) was used to provide social icon images.
 
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
 
-Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
+Though the process of building the site, I made use of deveopment tool through Chrome to ensure responsiveness accross all screen sizes.
 
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
-
-1. Contact form:
-    1. Go to the "Contact Us" page
-    2. Try to submit the empty form and verify that an error message about the required fields appears
-    3. Try to submit the form with an invalid email address and verify that a relevant error message appears
-    4. Try to submit the form with all inputs valid and verify that a success message appears.
-
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
-
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+Links, both navagation and external have been tried and tested as well as social. Contact me page form has been tested.
+  
+A use should find the site easy and simple to use with little to no confusion (minus the Lorem).
 
 ## Deployment
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
-
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
-- Different values for environment variables (Heroku Config Vars)?
-- Different configuration files?
-- Separate git branch?
-
-In addition, if it is not obvious, you should also describe how to run your code locally.
-
+This site was hosted thrugh Github pages after delevopment using VS code and Chrome Dev Tools.
 
 ## Credits
 
 ### Content
-- The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
+Lorem Ipsum text was used in the About me page (mission statement) to give an idea of what the designer might want to do or could lay things out.
+
+I also used it as an exmape for product infomation an the modals used in the gallary page.
+
+This was due to a lack of knowledge of product info and lack of time.
 
 ### Media
-- The photos used in this site were obtained from ...
+- The photos used in this site were obtained from form the designer.
+
+- The Youtube clip is curtosey of 
 
 ### Acknowledgements
 
