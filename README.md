@@ -78,4 +78,4 @@ This was due to a lack of knowledge of product info and lack of time.
 
 ### Acknowledgements
 
-- I received inspiration for this project from the designer (who is my wife). I hope to use a form of this site in the future and take it live for her.
+- I received inspiration for this project from the designer (who is also my long suffering wife). I hope to use a form of this site in the future and take it live for her.
