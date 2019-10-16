@@ -20,21 +20,21 @@ Please click below to view the Wireframe Repo
 
 ## Features
 
-1. Collapsable Navbar for easy navagtion around site
+1. Collapsible Navbar for easy navigation around site
 2. Gallary page with 12 peices (ability to add more) each with independant modal for descriptiion and larger view
-3. Breif bio of the designers ethos, inspiration and ideas.
+3. Brief bio of the designer’s ethos, inspiration and ideas.
 4. Contact page enabling people to make contact with the designer.
-5. An example Youtube clip of a ring being fashioned (credits below)
-6. Links to Social media (homepage only)
-6. An ability to create an account for returning site viewers
+5. An example Youtube clip of a ring being fashioned (credits below).
+6. Links to Social media (homepage only).
+6. A page with potetial ability to create an account for returning site viewers (front end only).
 7. Bio-picture of the designer.
  
 ### Features Left to Implement
 There are a large number of features with futher development could improve the website as it is mockup to display methods learned. Here is a short list of future impementations but is by no means extensive.
 
 * Professional Pictures or uniform background/pro editing
-* Visitor tarcker/item view tarcker
-* Designers own Youtube videos
+* Visitor tracker/item view tracker
+* Designers own YouTube videos
 * Weekly newsletter
 * Payment options link and hook up
 
@@ -47,12 +47,15 @@ I made use of [Bootstrap's](https://getbootstrap.com/) grid system for responsiv
 
 [Font Awesome](https://fontawesome.com/) was used to provide social icon images.
 
+## TESTING
 
 Though the process of building the site, I made use of deveopment tool through Chrome to ensure responsiveness accross all screen sizes.
 
 Links, both navagation and external have been tried and tested as well as social. Contact me page form has been tested.
   
 A use should find the site easy and simple to use with little to no confusion (minus the Lorem).
+
+I used the Github page like to test accross several browser types and all worked well.
 
 ## Deployment
 
@@ -61,17 +64,18 @@ This site was hosted thrugh Github pages after delevopment using VS code and Chr
 ## Credits
 
 ### Content
-Lorem Ipsum text was used in the About me page (mission statement) to give an idea of what the designer might want to do or could lay things out.
+Lorem Ipsum text was used in the about me page (mission statement) to give an idea of what the designer might want to do or could lay things out.
 
-I also used it as an exmape for product infomation an the modals used in the gallary page.
+I also used it as an exmaple for product infomation and the modals used in the gallary page.
 
 This was due to a lack of knowledge of product info and lack of time.
 
 ### Media
+
 - The photos used in this site were obtained from form the designer.
 
-- The Youtube clip is curtosey of 
+- The video clip is courtesy of scaffoal on YouTube.
 
 ### Acknowledgements
 
-- I received inspiration for this project from X
+- I received inspiration for this project from the designer (who is my wife). I hope to use a form of this site in the future and take it live for her.
