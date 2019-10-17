@@ -225,6 +225,12 @@ a#view-button:hover {
     background-size: cover;
     border: solid 2px #007bbf;
     border-radius: 23px;
+    
+}
+
+.image:hover {
+    cursor: pointer;
+   height: 105%;
     transition-timing-function: ease-in-out;
     transition-delay: 0.1s
 }
