@@ -55,21 +55,35 @@ Links, both navagation and external have been tried and tested as well as social
   
 A use should find the site easy and simple to use with little to no confusion (minus the Lorem).
 
-I used the Github page like to test accross several browser types and all worked well.
+I used the Github page link to test accross several browser types (Chrome, Explorer, Safari, Mollzilla Firefox and Opera) and all worked well.
 
 ## Deployment
 
-This site was hosted thrugh Github pages after delevopment using VS code and Chrome Dev Tools.
+This site was developed using VScode IDE. All changes to the code were then added and committed to the local repository. The commits were then pushed to my GitHub repository and the project deployed using GtiHub pages as follows;
+
+Step 1: Go to the settings tab of the repo, scrolled down to GitHub Pages
+
+Step 2: Under GitHub Pages -> Source is a scrolldown box titled None. Click it and you can select a source.
+
+Step 3: Click master branch
+
+Step 4: You will be automatically taken to the top of the page where in a light blue bar will be stated "Github Pages source saved".
+
+Step 5: You then scroll down to GitHub Pages where will be stated "Your site is ready to be published at "<https://nickbell123.github.io/ginning-soul-design/">
+
+Step 6: Click on the url and you will be auto-referred to the published webpage.
+
+Step 7: When returning to the github repository settings, scroll down to GitHub Pages and you will see a light green block stating "Your site is published at <https://...">
+
+## The repository can be found on:
+
+<https://github.com/NickBell123/ginning-soul-design> or click [Grinning Soul Designs](https://nickbell123.github.io/ginning-soul-design/) to view the page.
 
 ## Credits
 
 ### Content
 
-Lorem Ipsum text was used in the about me page (mission statement) to give an idea of what the designer might want to do or could lay things out.
-
-I also used it as an exmaple for product infomation and the modals used in the gallary page.
-
-This was due to a lack of knowledge of product info and lack of time.
+Lorem Ipsum text was used in the about me page (mission statement) to give an idea of what the designer might want to do or how it could be displayed.
 
 ### Media
 
