@@ -57,6 +57,14 @@ A use should find the site easy and simple to use with little to no confusion (m
 
 I used the Github page link to test accross several browser types (Chrome, Explorer, Safari, Mollzilla Firefox and Opera) and all worked well.
 
+I have notice an issue with the text in the navbar on some browsers. This maybe a CSS styling issue that I will look into.
+
+There was a huge amount of trial and error involved in the development of the webpages. Working with large images was tricky but after researching flexbox modal it was much simpler.
+
+I used media quiries to adjust the font text on smaller devices so the Titles became larger. The text was too small on mobile screens and barley visable.
+
+There were many simlar adjustments across the project.
+
 ## Deployment
 
 This site was developed using VScode IDE. All changes to the code were then added and committed to the local repository. The commits were then pushed to my GitHub repository and the project deployed using GtiHub pages as follows;
