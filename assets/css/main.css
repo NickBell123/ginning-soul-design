@@ -87,6 +87,7 @@ h3 {
 }
 
 
+
 .home-banner-container {
     height: 90vh;
     background: url('../images/banner-img.JPG') no-repeat bottom center fixed;
@@ -315,7 +316,7 @@ a#view-button:hover {
     justify-content: center;
 }
 
-/**Modal Styling**/
+/**Modal Styling & Pictures**/
 
 
 .modal-body {
@@ -422,20 +423,37 @@ a#view-button:hover {
     background-size: cover;
 }
 
+.product-info {
+    padding: 4px 6px;
+    font-family:'Comfortaa',cursive;
+}
+
+.price {
+    text-align: right;
+    padding: 1vw;
+}
+
+.modal-footer { 
+    font-family: 'Lobster'cursive;
+}
+
 .btn.btn-outline-primary {
     border-radius: 23px;
-    font-weight: 400;   
+    font-weight: 400; 
+    font-family: 'Lobster', cursive;  
 }
 
 .btn.btn-outline-secondary {
     color: #007bff;
     border-radius: 23px;
+    font-family: 'Lobster', cursive;
 }
 
 .btn:hover {
     opacity: 0.75;
 }
 
+/**Modal Styling & Pictures END**/
 
 .gallary-button {
     font-family: 'Lobster', cursive;
