@@ -6,13 +6,11 @@ The website has be designed with the end user in mind. Simple intuitive fuctiona
 
 ## UX
 
-* As the designer, the objective is to showcase works created and generate interest both public and commercial (focusing on public mainly to begin). The designer will hope to increase social media likes, subs, follows and so on. 
+* As the designer, the objective is to showcase works created and generate interest both public and commercial (focusing on public mainly to begin). The designer will hope to increase social media likes, subs, follows and so on.
 
-<hr />
+* As a visitor, the objective of the website to provide large visual content with an intutive design. Simple page layout with clear descriptive buttons and forms to encourage use.
 
-* As a visitor, the objective of the website to provide large visual content with an intutive design. Simple page layout with clear descriptive buttons and forms to encourage use. 
- 
- ### Wireframe Repo Link
+### Wireframe Repo Link
 
 Please click below to view the Wireframe Repo
 
@@ -26,10 +24,11 @@ Please click below to view the Wireframe Repo
 4. Contact page enabling people to make contact with the designer.
 5. An example Youtube clip of a ring being fashioned (credits below).
 6. Links to Social media (homepage only).
-6. A page with potetial ability to create an account for returning site viewers (front end only).
-7. Bio-picture of the designer.
- 
+7. A page with potetial ability to create an account for returning site viewers (front end only).
+8. Bio-picture of the designer.
+
 ### Features Left to Implement
+
 There are a large number of features with futher development could improve the website as it is mockup to display methods learned. Here is a short list of future impementations but is by no means extensive.
 
 * Professional Pictures or uniform background/pro editing
@@ -39,9 +38,10 @@ There are a large number of features with futher development could improve the w
 * Payment options link and hook up
 
 ## Technologies Used
+
 This site was built using HTML 5, CSS 3, and JavaScript.
 
-I made use of [Bootstrap's](https://getbootstrap.com/) grid system for responsive picture and page layouts. Various styling and spacing classes were used to achieve the sites framework as a whole. 
+I made use of [Bootstrap's](https://getbootstrap.com/) grid system for responsive picture and page layouts. Various styling and spacing classes were used to achieve the sites framework as a whole.
 
 [Google Fonts](https://fonts.google.com) Specifically Lobster and Comfortaa font families where used in the typography of the site.
 
@@ -64,6 +64,7 @@ This site was hosted thrugh Github pages after delevopment using VS code and Chr
 ## Credits
 
 ### Content
+
 Lorem Ipsum text was used in the about me page (mission statement) to give an idea of what the designer might want to do or could lay things out.
 
 I also used it as an exmaple for product infomation and the modals used in the gallary page.
@@ -72,10 +73,10 @@ This was due to a lack of knowledge of product info and lack of time.
 
 ### Media
 
-- The photos used in this site were obtained from form the designer.
+-The photos used in this site were obtained from form the designer.
 
-- The video clip is courtesy of scaffoal on YouTube.
+-The video clip is courtesy of scaffoal on YouTube.
 
 ### Acknowledgements
 
-- I received inspiration for this project from the designer (who is also my long suffering wife). I hope to use a form of this site in the future and take it live for her.
+I received inspiration for this project from the designer (who is also my long suffering wife). I hope to use a form of this site in the future and take it live for her.
